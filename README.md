@@ -5,7 +5,7 @@ using the [Raft consensus algorithm](https://raft.github.io/) for fault
 tolerance. The RPC layer is built directly on POSIX sockets; there are no
 heavyweight runtime dependencies.
 
-[![CI](https://github.com/lfylow/raft-kv/actions/workflows/ci.yml/badge.svg)](https://github.com/lfylow/raft-kv/actions/workflows/ci.yml)
+[![CI](https://github.com/lfylow/raft-kv-store/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/lfylow/raft-kv-store/actions/workflows/ci.yml)
 
 > **Status:** work in progress. Phase 0 (single-node KV over a framed TCP
 > protocol) is complete and tested; Raft consensus is being built up phase by
